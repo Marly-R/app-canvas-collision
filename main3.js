@@ -115,7 +115,7 @@ for (let i = 0; i < 10; i++) {
     let randomX = Math.random() * window_width;
     let randomY = Math.random() * window_height;
     let randomRadius = Math.floor(Math.random() * 100 + 15);
-    let randomSpeed = 2; // Velocidad más lenta
+    let randomSpeed = 5; // Velocidad más lenta
     circles.push(new Circle(randomX, randomY, randomRadius, "blue", (i + 1).toString(), randomSpeed));
 }
 
